@@ -1,0 +1,13 @@
+{
+    "schema": 1,
+    "id": "example-triangles",
+    "networked": false,
+    "version": "1.0.0",
+    "permissions": {
+        "client": {
+            "construct": true,
+            "interface": true,
+            "tween": true
+        }
+    }
+}
