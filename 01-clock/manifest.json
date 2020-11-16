@@ -1,0 +1,12 @@
+{
+    "schema": 1,
+    "id": "example-clock",
+    "networked": false,
+    "version": "1.0.0",
+    "permissions": {
+        "client": {
+            "construct": true,
+            "interface": true
+        }
+    }
+}
