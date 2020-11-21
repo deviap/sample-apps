@@ -1,0 +1,18 @@
+{
+    "schema": 1,
+    "id": "example-networking-chat",
+    "networked": true,
+    "version": "1.0.0",
+    "permissions": {
+        "client": {
+            "construct": true,
+            "interface": true,
+            "networking": true
+        },
+        "server": {
+            "construct": true,
+            "interface": true,
+            "networking": true
+        }
+    }
+}
