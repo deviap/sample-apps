@@ -5,10 +5,12 @@
 -- https://github.com/deviap/sample-apps/blob/master/LICENSE --
 ---------------------------------------------------------------
 
-print(_G)
-
--- Load in all the core gameKit components
-require("devgit:source/gameKit/main.lua") {}
+-- Load in only the gameKit components we need
+require("devgit:source/gameKit/main.lua") {
+	"loading",
+	"playerList", 
+	"disconnection"
+}
 
 -- We show the essages in this textbox
 local messageOutput = core.construct("guiTextBox", {
