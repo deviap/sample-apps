@@ -1,0 +1,15 @@
+{
+    "schema": 1,
+    "id": "example-serialiser",
+    "networked": false,
+    "version": "1.0.0",
+    "permissions": {
+        "client": {
+            "construct": true,
+            "interface": true,
+            "scene": true,
+            "io": true,
+            "graphics": true
+        }
+    }
+}
