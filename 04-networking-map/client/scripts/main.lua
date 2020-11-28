@@ -4,6 +4,7 @@
 -- Made available under the MIT License:                     --
 -- https://github.com/deviap/sample-apps/blob/master/LICENSE --
 ---------------------------------------------------------------
+
 -- Load in all the core gameKit components
 require("devgit:source/gameKit/main.lua") {}
 

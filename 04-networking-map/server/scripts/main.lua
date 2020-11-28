@@ -9,6 +9,7 @@
 require("devgit:source/gameKit/main.lua") {}
 
 core.construct("block", {
-	scale = vector3(3, 0.5, 3),
+	name = "baseplate",
+	scale = vector3(6, 0.5, 6),
 	position = vector3(0, -0.5, 0)
 })
