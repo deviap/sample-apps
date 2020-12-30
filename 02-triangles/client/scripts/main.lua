@@ -5,6 +5,8 @@
 -- https://github.com/deviap/sample-apps/blob/master/LICENSE --
 ---------------------------------------------------------------
 
+print("Running " .. _VERSION .. " on device " .. _DEVICE)
+
 -- Main container frame for this interface
 local backdrop = core.construct("guiFrame", {
 	parent = core.interface,

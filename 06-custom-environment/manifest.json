@@ -1,0 +1,14 @@
+{
+    "schema": 1,
+    "id": "example-custom-environment",
+    "networked": false,
+    "version": "1.0.0",
+    "permissions": {
+        "client": {
+            "construct": true,
+            "interface": true,
+            "scene": true,
+            "graphics": true
+        }
+    }
+}
