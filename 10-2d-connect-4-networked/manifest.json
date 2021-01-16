@@ -1,0 +1,21 @@
+{
+    "schema": 1,
+    "id": "example-2d-connect-4",
+    "networked": true,
+    "version": "0.0.1",
+    "permissions": {
+        "client": {
+            "interface": true,
+			"construct": true,
+			"disconnect": true,
+			"networking": true,
+			"input": true
+        },
+        "server": {
+			"construct": true,
+            "input": true,
+            "scene": true,
+			"networking": true
+        }
+    }
+}
